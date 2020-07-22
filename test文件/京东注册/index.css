@@ -1,0 +1,55 @@
+ul,
+li {
+    list-style: none;
+}
+
+.header {
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 10px;
+}
+
+table {
+    /* position: absolute; */
+    margin: 0 auto;
+    width: 900px;
+    height: 400px;
+    border-collapse: collapse;
+    /* left: 50%;
+    transform: translate(-50%,0); */
+}
+
+.img {
+    background-image: url(./login.png);
+    background-repeat: no-repeat;
+}
+
+td {
+    border: 1px solid;
+    width: 450px;
+}
+
+.button {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.other {
+    text-align: right;
+}
+
+.login {
+    height: 30px;
+    width: 120px;
+    margin-left: auto;
+    background-image: url(./btn_register.JPG);
+    background-repeat: no-repeat;
+}
+
+.footer ul li {
+    display: inline-block;
+    text-decoration: underline;
+}

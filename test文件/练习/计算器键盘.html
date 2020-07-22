@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,html{
+            position: relative;
+            height: 1000px;
+        }
+        table,td{
+            border: 1px solid white;
+            text-align: center;
+            margin: 0 auto;
+            border-radius: 4px;
+            background-color: black;
+            color: white;
+            vertical-align: top;
+        }
+        td{
+            width: 50px;
+            height: 50px;
+        }
+        span{
+            font-size: 12px;
+        }
+
+        /* 首先设置宽高
+            然后进行绝对定位
+            在设置top 和 left的值
+            再去平移自身的百分之50
+
+        */
+        
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Num Lock</td>
+            <td> / </td>
+            <td> * </td>
+            <td> - </td>
+        </tr>
+        <tr>
+            <td>7 <br><span>Home</span> </td>
+            <td>8 <br> <span>^</span></td>
+            <td>9 <br><span>Pg up</span></td>
+            <td rowspan="2">+</td>
+        </tr>
+        <tr>
+            <td>4 <br><span>&lt;</span></td>
+            <td>5</td>
+            <td>6 <br><span>&gt;</span></td>
+        </tr>
+        <tr>
+            <td>1 <br><span>End</span></td>
+            <td>2 <br><span>v</span></td>
+            <td>3 <br><span>Pg Dn</span></td>
+            <td rowspan="2">enter</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:left">0 <br><span>Ins</span></td>
+            <td style="text-align:left">. <br><span>Del</span></td>
+        </tr>
+    </table>
+
+</body>
+</html>
